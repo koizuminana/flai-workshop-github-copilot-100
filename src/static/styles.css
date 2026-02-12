@@ -96,6 +96,40 @@ section h3 {
   border-radius: 3px;
   font-size: 14px;
   color: #1565c0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.participant-email {
+  flex-grow: 1;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  padding: 0;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+.delete-btn:active {
+  transform: scale(0.95);
 }
 
 .no-participants {
